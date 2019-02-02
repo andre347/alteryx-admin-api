@@ -18,8 +18,10 @@ Then, import it in your code:
 Once imported, you'll need to create a new Gallery object like so:
 
 ```javascript
-const gallery = new Gallery(apilocation, apikey, apisecret);
-return gallery;
+function createGallery() {
+  const gallery = new Gallery(apilocation, apikey, apisecret);
+  return gallery;
+}
 ```
 
 You can grab the Location, Key and Secret from the API in your Alteryx Gallery by going to Settings - Keys. Make sure you enable the Admin API.
