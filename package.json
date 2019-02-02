@@ -1,0 +1,14 @@
+{
+  "name": "alteryx-admin-api",
+  "version": "1.0.0",
+  "description": "Wrapper for Alteryx Admin API",
+  "main": "index.js",
+  "keywords": [
+    "alteryx"
+  ],
+  "dependencies": {
+    "oauth-signature": "^1.5.0"
+  },
+  "author": "Andre de Vries",
+  "license": "ISC"
+}
