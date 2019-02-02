@@ -3,6 +3,8 @@
 This is a wrapper around the [Alteryx Admin API](https://gallery.alteryx.com/api-docs/#admin)
 as an NPM module. It has one dependency which will be installed when you install this module: 'oauth-signature'. This module uses Async/Await for fetching data from the API. The Alteryx Admin API only works for Private Galleries.
 
+The reason for building this wrapper is that the official Alteryx documentation has a jQuery dependency (this one doesn't) and can therefore more easily be used in the modern front-end frameworks such as Angular, React and Vuejs.
+
 ## Usage
 
 To use this NPM module:
@@ -31,7 +33,7 @@ When you get the gallery object back. You'll have the following API methods (GET
 - Insights - getInsights()
 - Server Data Connections - getServerDataConnections()
 - Workflows - getWorkflows()
-- Packages: ability to download the workflows, macros and analytic apps from the Gallery - getPackage(appId)
+- Packages: ability to download workflows, macros and analytic apps from the Gallery - getPackage(appId)
 
 An example for getting back all the **schedules** in your gallery:
 
