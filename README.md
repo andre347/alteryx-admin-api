@@ -1,7 +1,7 @@
 # Alteryx Admin API
 
 This is a wrapper around the [Alteryx Admin API](https://gallery.alteryx.com/api-docs/#admin)
-as an NPM module. It has one dependency which will be installed when you install this module: 'oauth-signature'. This module uses Async/Await for fetching data from the API.
+as an NPM module. It has one dependency which will be installed when you install this module: 'oauth-signature'. This module uses Async/Await for fetching data from the API. The Alteryx Admin API only works for Private Galleries.
 
 ## Usage
 
