@@ -26,7 +26,7 @@ When you get the gallery object back. You'll have the following API methods (GET
 
 - Schedules - getSchedules()
 - Users - getUsers()
-- Collections - getCollection()
+- Collections - getCollections()
 - Subscriptions - getSubscriptions()
 - Insights - getInsights()
 - Server Data Connections - getServerDataConnections()
