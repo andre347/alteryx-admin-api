@@ -47,3 +47,11 @@ async function getGallerySchedules() {
   console.log(data);
 }
 ```
+
+I've been using this wrapper in combination with Parcel as a build tool and Parcel doesn't really play nice with async/await - you'll get some error messages in your browser console. One way of fixing it is by adding this line to your package.json file:
+
+```javascript
+  "browserslist": [
+    "last 1 Chrome version"
+  ]
+```
